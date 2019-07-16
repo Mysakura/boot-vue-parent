@@ -55,8 +55,10 @@
 					<filesets>
 						<fileset>
 							<directory>src/main/resources/static</directory>
-							<directory>src/main/resources/templates</directory>
 						</fileset>
+                        <fileset>
+                            <directory>src/main/resources/templates</directory>
+                        </fileset>
 					</filesets>
 				</configuration>
 			</plugin>
